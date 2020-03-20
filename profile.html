@@ -160,6 +160,54 @@
 
     <main>
       <article id="timeline">
+        <!-- Profile -->
+        <div class="profile-container">
+          <div class="cover-img">
+            <img src="./assets/skate-2.png" alt="">
+          </div>
+          <div class="foto-profile">
+            <div class="wrapper-foto">
+              <img src="./assets/pp.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="upload-gambar">
+            <div id="hide" class="upload">
+              <label class="hand-cursor">
+                <input type="file" nv-file-select uploader="$ctrl.uploader" />
+                <span class="photo_text hidden-xs">Update Cover Photo</span>
+              </label>
+            </div>
+            <button type="submit">Update</button>
+          </div>
+        </div>
+        <!-- end profile -->
+
+        <!-- Tulis post -->
+        <div class="container-post">
+          <img src="./assets/pp.jpg">
+          <textarea name="tulis-post" id="tulis-post" cols="30" rows="10" placeholder="Text Anything..."></textarea>
+          <div class="wrapper-upload-post">
+            <div class="upload-gambar">
+              <div id="hide" class="upload">
+                <label class="hand-cursor">
+                  <input type="file" nv-file-select uploader="$ctrl.uploader" />
+                  <span class="far fa-image"></span>
+                  <span class="photo_text hidden-xs">Photo</span>
+                </label>
+              </div>
+            </div>
+            <button type="submit">Post</button>
+          </div>
+        </div>
+        <!-- end tulis post -->
+
+        <div class="wrapper-pembatas">
+          <div class="garis"></div>
+          <div class="title-pembatas">
+            <p>Your Post</p>
+          </div>
+        </div>
 
         <!-- User Post -->
         <div class="wrapper-status">
