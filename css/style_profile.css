@@ -960,12 +960,11 @@ article#friend-list {
   cursor: pointer;
 }
 
-/* ----- Friend List ----- */
-
-.container-fl {
+/* ----- Information Profile ----- */
+.container-info {
   flex: 0 1 280px;
   width: 200px;
-  height: 400px;
+  height: 290px;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -973,31 +972,48 @@ article#friend-list {
   margin-top: 10px;
 }
 
-.title-fl {
+.info-profile {
+  /* border: 1px solid magenta; */
+  display: flex;
+  flex-direction: column;
+}
+
+.info-profile .date, .town, .univ, .gender {
+  padding: 10px 0;
+  display: flex;
+  font-size: 14px;
+}
+
+.info-profile .date p , .town p, .univ p, .gender p {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.title-info {
   border-bottom: 1px solid var(--warm);
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
 
-.container-fl h4 {
+.container-info h4 {
   margin: 0;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: .5px;
 }
 
-.friend {
+.info-profile {
   display: flex;
   align-content: center;
 }
 
-.friend img {
+.info-profile img {
   width: 40px;
   height: 40px;
   border-radius: 100px;
 }
 
-.friend a {
+.info-profile a {
   margin: 0 0 0 10px;
   font-size: 15px;
   line-height: 40px;
