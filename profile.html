@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/f96113016a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style_profile.css">
+  <title>Rooster</title>
+</head>
+<!-- onclick="menuResponsive()" -->
+
+<body>
+  <header>
+    <nav>
+      <div class="wrapper-btn">
+        <div class="menu-btn" id="menu-btn">
+          <div class="menu-btn__burger" id="menu-btn__burger"></div>
+        </div>
+      </div>
+
+      <div class="logo__container">
+        <img src="./assets/logo-tl.png" class="logo">
+        <p>ROOSTER.</p>
+      </div>
+      <div class="search">
+        <input type="search" placeholder="Search Friends..">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+      <div class="info">
+        <div class="notif">
+          <div class="wrapper-dot">
+            <div class="dot">
+              <p>12</p>
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <div class="alert">
+              <i class="far fa-bell"></i>
+            </div>
+
+            <div class="d-info-alert">
+              <div class="info-alert">
+                <img src="./assets/pp.jpg">
+                <a href="#">Laura following you!</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="profile-1">
+          <img src="./assets/pp.jpg">
+          <div class="dropdown">
+            <a href="#" class="nama">Fadla Ichsan</a>
+            <div class="dropdown-content">
+              <a href="#">Logout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <section>
+    <aside>
+      <div class="profile-2">
+        <img src="./assets/pp.jpg">
+        <a href="#">Fadla Ichsan</a>
+      </div>
+
+      <div class="menu">
+        <div class="home" id="ganti">
+          <div class="f-w">
+            <i class="fas fa-home"></i>
+          </div>
+          <a href="" onclick="changeBg()">Home</a>
+        </div>
+
+        <div class="profile">
+          <div class="f-w">
+            <i class="fas fa-user-alt"></i>
+          </div>
+          <a href="">Profile</a>
+        </div>
+
+        <div class="people">
+          <div class="f-w">
+            <i class="fas fa-users"></i>
+          </div>
+          <a href="">People</a>
+        </div>
+
+        <div class="message">
+          <div class="f-w">
+            <i class="fas fa-comment-dots"></i>
+          </div>
+          <a href="">Message</a>
+        </div>
+      </div>
+
+      <div class="settings">
+        <div class="setting">
+          <div class="f-w">
+            <i class="fas fa-cog"></i>
+          </div>
+          <a href="">Setting</a>
+        </div>
+      </div>
+    </aside>
+
+    <div id="menu-responsive">
+      <div class="profile-2">
+        <a href=""><img src="./assets/pp.jpg"></a>
+      </div>
+
+      <div class="wrapper">
+        <div class="menu">
+          <div class="home">
+            <div class="f-w">
+              <a href=""><i class="fas fa-home"></i></a>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="f-w">
+              <a href=""><i class="fas fa-user-alt"></i></a>
+            </div>
+          </div>
+
+          <div class="people">
+            <div class="f-w">
+              <a href=""><i class="fas fa-users"></i></a>
+            </div>
+          </div>
+
+          <div class="message">
+            <div class="f-w">
+              <a href=""><i class="fas fa-comment-dots"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="settings">
+          <div class="setting">
+            <div class="f-w">
+              <a href=""><i class="fas fa-cog"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="logout">
+          <div class="f-w">
+            <a href=""><i class="fas fa-sign-out-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <article id="timeline">
+
+        <!-- User Post -->
+        <div class="wrapper-status">
+          <div class="container-tl">
+            <div class="tl-profile">
+              <img src="./assets/pp.jpg">
+              <div class="tl-profile-name">
+                <h4>Jhon Doe</h4>
+                <p class="waktu">13/03/2020 21:51.PM</p>
+              </div>
+            </div>
+            <div class="tl-status">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eveniet cupiditate cumque placeat
+                atque
+                suscipit delectus quos quisquam enim, deleniti ipsam consequuntur fugit non debitis culpa nulla
+                exercitationem harum pariatur ea itaque. Neque cum, blanditiis quo at perferendis, illo voluptas vitae,
+                quas
+                recusandae quod iusto nostrum corporis atque. Debitis, sed.</p>
+            </div>
+            <div class="foot-tl">
+              <div class="comment">
+                <p>1</p>
+                <i class="far fa-comment"></i>
+                <button onclick="myFunction()">Comment</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-comment" id="comment">
+            <div class="comment-profile">
+              <img src="./assets/pp.jpg">
+              <div class="tl-profile-name">
+                <h4>Jhon Doe</h4>
+                <p class="waktu">13/03/2020 21:51.PM</p>
+              </div>
+            </div>
+            <div class="comment-section">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim aut minus similique eius earum? Animi
+                non
+                itaque rem odit atque!</p>
+            </div>
+          </div>
+          <div class="tulis-comment">
+            <textarea name="tulis-comment" id="tulis-comment" cols="30" rows="10"></textarea>
+            <button>Sent</button>
+          </div>
+        </div>
+        <!-- END User Post -->
+
+      </article>
+    </main>
+
+
+    <article id="friend-list">
+      <div class="container-fl">
+        <div class="title-fl">
+          <h4>Friend List</h4>
+        </div>
+
+        <div class="friend">
+          <img src="./assets/pp.jpg">
+          <a href="">Jhon Doe</a>
+        </div>
+      </div>
+    </article>
+  </section>
+  <script src="./javascript/show-hide.js"></script>
+  <script src="./javascript/burger.js"></script>
+</body>
+
+</html>
