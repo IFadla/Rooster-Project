@@ -1,0 +1,20 @@
+:root {
+  --primary : #6472EE;
+  --warm : #B1B8F6;
+  --light : #E9E9FF;
+  --bg : #F7F8F9;
+  --fblack : #2A2A2A;
+  --flight : #BEBEBE;
+}
+
+.click a {
+  color: white !important;
+}
+
+.click .f-w {
+  color: white !important;
+}
+
+a.click {
+  color: white !important;
+}
