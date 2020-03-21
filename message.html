@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/f96113016a.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/style_timeline.css">
+  <link rel="stylesheet" href="./css/message.css">
   <link rel="stylesheet" href="./css/menu.css">
   <title>Rooster</title>
 </head>
@@ -72,11 +72,11 @@
       </div>
 
       <div class="menu">
-        <div class="home click" id="ganti">
+        <div class="home" id="ganti">
           <div class="f-w">
             <i class="fas fa-home"></i>
           </div>
-          <a href="timeline.html">Home <div class="click"></div></a>
+          <a href="timeline.html">Home</a>
         </div>
 
         <div class="profile">
@@ -93,11 +93,11 @@
           <a href="people.html">People</a>
         </div>
 
-        <div class="message">
+        <div class="message click">
           <div class="f-w">
             <i class="fas fa-comment-dots"></i>
           </div>
-          <a href="message.html">Message</a>
+          <a href="message.html">Message <div class="click"></div></a>
         </div>
       </div>
 
@@ -120,7 +120,7 @@
         <div class="menu">
           <div class="home">
             <div class="f-w">
-              <a href="timeline.html" class="click"><i class="fas fa-home"></i></a>
+              <a href="timeline.html"><i class="fas fa-home"></i></a>
             </div>
           </div>
 
@@ -138,7 +138,7 @@
 
           <div class="message">
             <div class="f-w">
-              <a href="message.html"><i class="fas fa-comment-dots"></i></a>
+              <a href="message.html" class="click"><i class="fas fa-comment-dots"></i></a>
             </div>
           </div>
         </div>
@@ -158,70 +158,50 @@
         </div>
       </div>
     </div>
-
+    <!-- END OF NAVBAR -->
     <main>
       <article id="timeline">
 
-        <div class="container-post">
-          <img src="./assets/pp.jpg">
-          <textarea name="tulis-post" id="tulis-post" cols="30" rows="10" placeholder="Text Anything..."></textarea>
-          <div class="wrapper-upload-post">
-            <div class="upload-gambar">
-              <div id="hide" class="upload">
-                <label class="hand-cursor">
-                  <input type="file" nv-file-select uploader="$ctrl.uploader" />
-                  <span class="far fa-image"></span>
-                  <span class="photo_text hidden-xs">Photo</span>
-                </label>
-              </div>
+        <div class="container-profile-message">
+          <div class="wrapper-message">
+            <div class="sticky-top-message">
+              <p>To <span>Ucup Surucup</span></p>
             </div>
-            <button type="submit">Post</button>
-          </div>
-        </div>
 
-        <div class="wrapper-status">
-          <div class="container-tl">
-            <div class="tl-profile">
-              <img src="./assets/pp.jpg">
-              <div class="tl-profile-name">
-                <h4>Jhon Doe</h4>
-                <p class="waktu">13/03/2020 21:51.PM</p>
+            <div class="container-message">
+              <div class="box-message-1">
+                <div class="box-img">
+                  <img src="./assets/pp.jpg">
+                </div>
+                <div class="box-text">
+                  <p>Lorem ips lorem100 lorem200</p>
+                  <p class="waktu">13/03/2020 21:51.PM</p>
+                </div>
               </div>
-            </div>
-            <div class="tl-status">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eveniet cupiditate cumque placeat
-                atque
-                suscipit delectus quos quisquam enim, deleniti ipsam consequuntur fugit non debitis culpa nulla
-                exercitationem harum pariatur ea itaque. Neque cum, blanditiis quo at perferendis, illo voluptas vitae,
-                quas
-                recusandae quod iusto nostrum corporis atque. Debitis, sed.</p>
-            </div>
-            <div class="foot-tl">
-              <div class="comment">
-                <p>1</p>
-                <i class="far fa-comment"></i>
-                <button onclick="myFunction()">Comment</button>
-              </div>
-            </div>
-          </div>
 
-          <div class="container-comment" id="comment">
-            <div class="comment-profile">
-              <img src="./assets/pp.jpg">
-              <div class="tl-profile-name">
-                <h4>Jhon Doe</h4>
-                <p class="waktu">13/03/2020 21:51.PM</p>
+              <div class="box-message-2">
+                <div class="box-text">
+                  <p>Lorem ips lorem100 lorem200 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi
+                    mollitia accusamus nemo libero quos aliquam beatae, vel soluta sed odio adipisci consectetur
+                    dolor. Quaerat neque aperiam maxime repudiandae saepe architecto alias nobis corporis, sit
+                    molestiae quis sapiente quidem quasi perferendis at sequi. Ab explicabo minus, excepturi voluptate
+                    harum alias? Porro velit, fuga error, at reprehenderit quasi ipsum beatae nam tempore nostrum enim
+                    harum veritatis eius unde optio neque. Ullam maiores accusantium suscipit saepe illo dignissimos
+                    optio commodi consequatur amet porro fugiat itaque quaerat similique perspiciatis impedit cumque,
+                    esse dolor assumenda dicta rem. Consectetur distinctio temporibus similique quibusdam nisi
+                    corporis.</p>
+                  <p class="waktu">13/03/2020 21:51.PM</p>
+                </div>
+                <div class="box-img">
+                  <img src="./assets/pp.jpg">
+                </div>
               </div>
             </div>
-            <div class="comment-section">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim aut minus similique eius earum? Animi
-                non
-                itaque rem odit atque!</p>
+
+            <div class="type-message">
+              <textarea name="type-message" id="type-message" cols="30" rows="10"></textarea>
+              <button>Sent</button>
             </div>
-          </div>
-          <div class="tulis-comment">
-            <textarea name="tulis-comment" id="tulis-comment" cols="30" rows="10"></textarea>
-            <button>Sent</button>
           </div>
         </div>
 
@@ -230,42 +210,62 @@
 
 
     <article id="friend-list">
-      <div class="container-fl">
-        <div class="title-fl">
-          <h4>Friend List</h4>
+      <div class="wrapper-message-profile">
+        <div class="container-message-profile">
+          <img src="./assets/skate-2.png">
+          <div class="bg-color"></div>
+          <div class="wrapper-semua">
+            <div class="wrapper-img-profile">
+              <img src="./assets/pp.jpg">
+            </div>
+            <div class="nama">
+              <p>Ucup Surucup</p>
+            </div>
+            <div class="message-location">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Tangerang</p>
+            </div>
+          </div>
         </div>
 
-        <div class="friend">
-          <img src="./assets/pp.jpg">
-          <a href="">Jhon Doe</a>
-        </div>
-        <div class="friend">
-          <img src="./assets/pp.jpg">
-          <a href="">Jhon Doe</a>
-        </div>
-        <div class="friend">
-          <img src="./assets/pp.jpg">
-          <a href="">Jhon Doe</a>
-        </div>
-        <div class="friend">
-          <img src="./assets/pp.jpg">
-          <a href="">Jhon Doe</a>
-        </div>
-        <div class="friend">
-          <img src="./assets/pp.jpg">
-          <a href="">Jhon Doe</a>
-        </div>
-        <div class="friend">
-          <img src="./assets/pp.jpg">
-          <a href="">Jhon Doe</a>
-        </div>
-        <div class="friend">
-          <img src="./assets/pp.jpg">
-          <a href="">Jhon Doe</a>
-        </div>
-        <div class="friend">
-          <img src="./assets/pp.jpg">
-          <a href="">Jhon Doe</a>
+
+        <div class="container-fl">
+          <div class="title-fl">
+            <h4>Friend List</h4>
+          </div>
+
+          <div class="friend">
+            <img src="./assets/pp.jpg">
+            <a href="">Jhon Doe</a>
+          </div>
+          <div class="friend">
+            <img src="./assets/pp.jpg">
+            <a href="">Jhon Doe</a>
+          </div>
+          <div class="friend">
+            <img src="./assets/pp.jpg">
+            <a href="">Jhon Doe</a>
+          </div>
+          <div class="friend">
+            <img src="./assets/pp.jpg">
+            <a href="">Jhon Doe</a>
+          </div>
+          <div class="friend">
+            <img src="./assets/pp.jpg">
+            <a href="">Jhon Doe</a>
+          </div>
+          <div class="friend">
+            <img src="./assets/pp.jpg">
+            <a href="">Jhon Doe</a>
+          </div>
+          <div class="friend">
+            <img src="./assets/pp.jpg">
+            <a href="">Jhon Doe</a>
+          </div>
+          <div class="friend">
+            <img src="./assets/pp.jpg">
+            <a href="">Jhon Doe</a>
+          </div>
         </div>
       </div>
     </article>
