@@ -66,7 +66,7 @@
     <aside>
       <div class="profile-2">
         <img src="./assets/pp.jpg">
-        <a href="#">Fadla Ichsan</a>
+        <a href="profile.html">Fadla Ichsan</a>
       </div>
 
       <div class="menu">
@@ -74,21 +74,21 @@
           <div class="f-w">
             <i class="fas fa-home"></i>
           </div>
-          <a href="" onclick="changeBg()">Home</a>
+          <a href="timeline.html">Home</a>
         </div>
 
         <div class="profile">
           <div class="f-w">
             <i class="fas fa-user-alt"></i>
           </div>
-          <a href="">Profile</a>
+          <a href="profile.html">Profile</a>
         </div>
 
         <div class="people">
           <div class="f-w">
             <i class="fas fa-users"></i>
           </div>
-          <a href="">People</a>
+          <a href="people.html">People</a>
         </div>
 
         <div class="message">
@@ -104,33 +104,33 @@
           <div class="f-w">
             <i class="fas fa-cog"></i>
           </div>
-          <a href="">Setting</a>
+          <a href="setting.html">Setting</a>
         </div>
       </div>
     </aside>
 
     <div id="menu-responsive">
       <div class="profile-2">
-        <a href=""><img src="./assets/pp.jpg"></a>
+        <a href="profile.html"><img src="./assets/pp.jpg"></a>
       </div>
 
       <div class="wrapper">
         <div class="menu">
           <div class="home">
             <div class="f-w">
-              <a href=""><i class="fas fa-home"></i></a>
+              <a href="timeline.html"><i class="fas fa-home"></i></a>
             </div>
           </div>
 
           <div class="profile">
             <div class="f-w">
-              <a href=""><i class="fas fa-user-alt"></i></a>
+              <a href="profile.html"><i class="fas fa-user-alt"></i></a>
             </div>
           </div>
 
           <div class="people">
             <div class="f-w">
-              <a href=""><i class="fas fa-users"></i></a>
+              <a href="people.html"><i class="fas fa-users"></i></a>
             </div>
           </div>
 
@@ -144,14 +144,14 @@
         <div class="settings">
           <div class="setting">
             <div class="f-w">
-              <a href=""><i class="fas fa-cog"></i></a>
+              <a href="setting.html"><i class="fas fa-cog"></i></a>
             </div>
           </div>
         </div>
 
         <div class="logout">
           <div class="f-w">
-            <a href=""><i class="fas fa-sign-out-alt"></i></a>
+            <a href="login.html"><i class="fas fa-sign-out-alt"></i></a>
           </div>
         </div>
       </div>
@@ -170,11 +170,12 @@
             </div>
           </div>
 
-          <div class="upload-gambar">
+          <div class="upload-gambar profile-upload">
             <div id="hide" class="upload">
               <label class="hand-cursor">
                 <input type="file" nv-file-select uploader="$ctrl.uploader" />
-                <span class="photo_text hidden-xs">Cover Edit</span>
+                <span class="photo_text hidden-xs"><i class="far fa-edit"></i></span>
+                <span>Cover</span>
               </label>
             </div>
             <button type="submit">Update</button>

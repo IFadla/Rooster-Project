@@ -602,11 +602,18 @@ article#friend-list {
   border-radius: 5px;
   padding: 0 5px;
   cursor: pointer;
+  width: 200px;
+  margin-right: 20px ;
 }
 
 .hand-cursor span {
   color: var(--primary);
   font-size: 14px;
+}
+
+.profile-upload .upload {
+  min-width: 89px;
+  /* border: 1px solid magenta; */
 }
 
 /* Tulis post */
@@ -756,7 +763,7 @@ article#friend-list {
   background-color: var(--primary);
   color: var(--light);
   font-family: 'kanit', sans-serif;
-  margin-left: 10px;
+  margin-left: -15px;
   border: none;
   cursor: pointer;
   padding: 0 10px;
