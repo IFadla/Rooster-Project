@@ -18,3 +18,9 @@
 a.click {
   color: white !important;
 }
+
+.click a div.click {
+  width: 100%;
+  height: 1px;
+  background-color: var(--warm);
+}
