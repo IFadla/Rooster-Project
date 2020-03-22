@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/f96113016a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style_setting.css">
+  <link rel="stylesheet" href="./css/style_menu.css">
+  <title>Rooster</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="wrapper-btn">
+        <div class="menu-btn" id="menu-btn">
+          <div class="menu-btn__burger" id="menu-btn__burger"></div>
+        </div>
+      </div>
+
+      <div class="logo__container">
+        <img src="./assets/logo-tl.png" class="logo">
+        <p>ROOSTER.</p>
+      </div>
+      <div class="search">
+        <input type="search" placeholder="Search Friends..">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+      <div class="info">
+        <div class="notif">
+          <div class="wrapper-dot">
+            <div class="dot">
+              <p>12</p>
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <div class="alert">
+              <i class="far fa-bell"></i>
+            </div>
+
+            <div class="d-info-alert">
+              <div class="info-alert">
+                <img src="./assets/pp.jpg">
+                <a href="#">Laura following you!</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="profile-1">
+          <img src="./assets/pp.jpg">
+          <div class="dropdown">
+            <a href="#" class="nama">Fadla Ichsan</a>
+            <div class="dropdown-content">
+              <a href="#">Logout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <section>
+    <aside>
+      <div class="profile-2">
+        <img src="./assets/pp.jpg">
+        <a href="profile.html">Fadla Ichsan</a>
+      </div>
+
+      <div class="menu">
+        <div class="home" id="ganti">
+          <div class="f-w">
+            <i class="fas fa-home"></i>
+          </div>
+          <a href="timeline.html">Home</a>
+        </div>
+
+        <div class="profile">
+          <div class="f-w">
+            <i class="fas fa-user-alt"></i>
+          </div>
+          <a href="profile.html">Profile</a>
+        </div>
+
+        <div class="people">
+          <div class="f-w">
+            <i class="fas fa-users"></i>
+          </div>
+          <a href="people.html">People</a>
+        </div>
+
+        <div class="message">
+          <div class="f-w">
+            <i class="fas fa-comment-dots"></i>
+          </div>
+          <a href="message.html">Message</a>
+        </div>
+      </div>
+
+      <div class="settings click">
+        <div class="setting">
+          <div class="f-w">
+            <i class="fas fa-cog"></i>
+          </div>
+          <a href="setting.html">Setting <div class="click"></div></a>
+        </div>
+      </div>
+    </aside>
+
+    <div id="menu-responsive">
+      <div class="profile-2">
+        <a href="profile.html"><img src="./assets/pp.jpg"></a>
+      </div>
+
+      <div class="wrapper">
+        <div class="menu">
+          <div class="home">
+            <div class="f-w">
+              <a href="timeline.html"><i class="fas fa-home"></i></a>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="f-w">
+              <a href="profile.html"><i class="fas fa-user-alt"></i></a>
+            </div>
+          </div>
+
+          <div class="people">
+            <div class="f-w">
+              <a href="people.html"><i class="fas fa-users"></i></a>
+            </div>
+          </div>
+
+          <div class="message">
+            <div class="f-w">
+              <a href="message.html"><i class="fas fa-comment-dots"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="settings">
+          <div class="setting">
+            <div class="f-w">
+              <a href="setting.html" class="click"><i class="fas fa-cog"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="logout">
+          <div class="f-w">
+            <a href="login.html"><i class="fas fa-sign-out-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <article id="timeline">
+
+      </article>
+    </main>
+
+
+    <article id="information">
+      <div class="container-info">
+        <div class="title-info">
+          <h4>Information</h4>
+        </div>
+        <div class="info-profile">
+          <div class="date">
+            <i class="far fa-calendar-alt"></i>
+            <p>09 April 2000</p>
+          </div>
+
+          <div class="town">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Tangerang</p>
+          </div>
+
+          <div class="univ">
+            <i class="fas fa-graduation-cap"></i>
+            <p>Universitas Multimedia Nusantara</p>
+          </div>
+
+          <div class="gender">
+            <i class="fas fa-venus-mars"></i>
+            <p>Male</p>
+          </div>
+
+        </div>
+      </div>
+    </article>
+
+  </section>
+  <script src="./javascript/show-hide.js"></script>
+  <script src="./javascript/burger.js"></script>
+</body>
+
+</html>
