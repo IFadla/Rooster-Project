@@ -707,6 +707,42 @@ article#friend-list {
   color: var(--warm);
   font-size: 14px;
 }
+
+form.search_form {
+  position: relative;
+}
+
+.wrapper-search-friend {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  padding: 0 30px;
+}
+
+form.search_form input {
+  border: 1px solid #6472EE;
+  border-radius: 5px;
+  height: 22px;
+  padding: 2px 5px;
+  color: #6472EE;
+}
+
+form.search_form button {   
+  background-color: #6472EE;
+  color: #B1B8F6;
+  border-radius: 5px;
+  border: none;
+  padding: 3px 4px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+form.search_form input::placeholder {
+  color: #B1B8F6;
+}
 /* END PROFILE */
 
 
@@ -754,7 +790,6 @@ article#friend-list {
 }
 
 /* End People style----------------- */
-
 
 
 /* ----- Information Profile ----- */
